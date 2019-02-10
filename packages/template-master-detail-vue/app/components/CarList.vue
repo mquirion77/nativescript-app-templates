@@ -1,6 +1,6 @@
 <template>
     <Page class="page">
-        <ActionBar class="action-bar">
+        <ActionBar>
             <Label class="action-bar-title" text="Car List" horizontalAlignment="center" />
         </ActionBar>
 

@@ -1,6 +1,6 @@
 <template>
     <Page class="page">
-        <ActionBar class="action-bar">
+        <ActionBar>
             <NavigationButton @tap="$navigateBack()" android.systemIcon="ic_menu_back" />
             <Label class="action-bar-title" :text="carData.name" horizontalAlignment="center" />
             <ActionItem @tap="onEditButtonTap" ios.position="right" android.position="right">

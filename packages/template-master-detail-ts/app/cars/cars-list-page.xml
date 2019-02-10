@@ -2,7 +2,7 @@
     xmlns:lv="nativescript-ui-listview"
     xmlns="http://schemas.nativescript.org/tns.xsd" >
 
-    <ActionBar class="action-bar">
+    <ActionBar>
         <!-- Should remove the navigation button -->
         <NavigationButton ios:visibility="collapsed" />
         <Label class="action-bar-title" text="Browse" horizontalAlignment="center" />
